@@ -15,7 +15,7 @@ module.exports = bot => bot.registerCommand('poll', (msg, args) => {
         description: title,
         footer: {
 //          text: 'Use 👍 or 👎 reactions to vote',
-        text: 'Press 👍 if you are voting for the person',
+        text: 'Press 👍 if you are voting for the person; contact Unfσrgσττεn [Discord.js]#9982 if needed.',
         },
       },
     }).then((message) => {
